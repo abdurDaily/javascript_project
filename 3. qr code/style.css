@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #ffffff28;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#qr-code{
+    height: 100vh;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#qr-code input, #qr-code button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    /* border: 1px solid #000; */
+}
+#qr-code .btn-group{
+    display: flex;
+}
+#qr-code button{
+    background-color: #4834d4;
+    color: #ffffff;
+    cursor: pointer;
+}
+.qr-box{
+    margin-top: 20px;
+    text-align: center;
+    transition: 0.5s all;
+}
