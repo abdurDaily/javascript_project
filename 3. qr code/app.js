@@ -1,10 +1,11 @@
-let qrCode = document.querySelector('.qr-input');
-let btn = document.querySelector('.btn');
-let qrBox = document.querySelector('.qr-box');
-let qrImage = document.querySelector('.qr-image');
+let urlAddress = document.querySelector('.url-address');
+let btnBox = document.querySelector('.btn-box');
+let img = document.querySelector('img');
 
 
-btn.addEventListener('click', function(){
-   let test = qrImage.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" +  qrCode.value;
-   console.log(test);
+btnBox.addEventListener('click', function(){
+  let url = "https://api.qrserver.com/v1/create-qr-code/?data=";
+  img.src = url + urlAddress.value;
+
 });
+

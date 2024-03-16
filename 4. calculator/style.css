@@ -16,7 +16,6 @@
 }
 #cal-body .display{
     width: 300px;
-
 }
 #cal-body .display input{
     padding: 20px;
@@ -24,6 +23,9 @@
     font-size: 20px;
     font-weight: bold;
     text-align: right;
+}
+#cal-body td input{
+    font-size: 18px;
 }
 #cal-body .head-btn{
     background-color: #ff7f50;
